@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://cdpn.io/Gulsenem/fullpage/RwadvNE -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - 29 sep</title>
+  
+  
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  
+<style>
+.flower{
+  width: 300px;
+  height: 100px;
+  background-color:orange;
+  border-radius:50px;
+  margin-top:300px;
+  margin-left:150px;
+}
+
+.circle{
+  width:100px;
+  height:100px;
+  background-color:red;
+  border-radius:50px;
+  margin-top:-100px;
+  margin-left:250px;
+  position:relative;
+  
+}
+
+
+.flower::before{
+  content:"";
+  display:block;
+  position:absolute;
+  width:300px;
+  height:100px;
+  background-color:orange;
+  border-radius:50px;
+  transform:rotate(-60deg)
+  
+}
+
+.flower::after{
+   content:"";
+  display:block;
+  width:300px;
+  height:100px;
+  background-color:orange;
+  border-radius:50px;
+  transform:rotate(60deg)
+}
+
+
+.fence{
+  content:"";
+  
+  width:100px;
+  height:300px;
+  background-color: brown;
+  border-radius:30px;
+  margin-top:150px;
+   display:inline-block;
+  
+  }
+.fence::before{
+  width:100px;
+  height:300px;
+  background-color: brown;
+  border-radius:30px;
+  margin-top:150px;
+  margin-left:30px;
+  display:inline-block;
+}
+
+.stick{
+  width:30px;
+  height:400px;
+  background-color: green;
+  border:2px solid green;
+  margin-top:-510px;
+  margin-left: 290px;
+  z-index: -111111;
+  
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="flower"></div>
+<div class="circle"></div>
+<div>
+<div class="fence"></div>
+ <div class="fence"></div>
+<div class="fence"></div>
+<div class="fence"></div>
+<div class="fence"></div>
+<div class="fence"></div>
+<div class="fence"></div>
+<div class="fence"></div>
+ </div>
+
+<div class="stick"></div>
+  
+  
+  
+  
+
+
+
+
+ 
+</body></html>

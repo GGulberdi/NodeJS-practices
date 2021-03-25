@@ -1,0 +1,82 @@
+1- Event Based - Thread Based | Helloworld.js
+2- Npm Intellisense | ESLint (Dirk Baeumer) | REST Client | Node Debug
+3- LTS-Current Versinos | Install NodeJS
+4- Callback Functions & CallBack Hell |Promise
+5- NPM Nedir? | Paket Nedir? | npm i xxxx | require
+
+https://maxchadwick.xyz/blog/a-look-at-auto-updating-in-oh-my-zsh
+
+
+1- import vs require | npm root -g | npm i packageName --global | npm list & npm list -g | npm list -g --depth=0
+
+2- Create Project with NPM -> npm init | npm init -y | npm set init.author.name "FIRAT" |  npm config ls -l | npm install
+
+3- npm cache method => npm i -g npm-cache//local installing
+=> npm-cache packageName
+
+04- npm i packageName --save
+npm i packageName -s
+
+npm i packageNAME --no-save//does`t save in dependicies
+
+05-dependencies
+06-npm i packageName@version --> @lastest
+07-npm outdated// to learn the version of packgages
+08-npm update [packageName]// update packgages
+09-npm i packageName --save-dev ==> devdepend//
+10-scripts// used to assign commands as key value object
+11-npm i packageName0 packageName1 packageName2
+12-npm uninstall packageName
+13-npm uninstall packageName --no-save
+14. 
+
+
+
+/////////////////NODE.JS///////////////////////
+
+1 - EventEmitter=>on|Emit
+ 
+//////////////////////
+npm install validator  => use this command ,if you want to install the latest version of a module, you can leave off the version number as shown below.
+
+npm install -g {moduleName} => the way of install modules globally (add "-g") 
+
+mpm install nodeman =>nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+13/2/2021
+
+- Routing /routing.js
+- Streams/
+
+=================
+-EXPRESS => npm install express --save // for global => npm install express -global
+
+12 February
+
+-pug => npm i pug// to cinvert from html - to pug =>https://html-to-pug.com/
+-VS cide faker snippet  =>  use fake datas// command->  ctrl+shift+p
+
+
+======================================================
+02/18 A. Routing with Express & Postman
+02/18 B. Url Char (? Optional,* Any Text,+ Plus)
+02/18 C. GET/POST/DELETE/PUT & ALL in ExpressJS
+02/18 D. Send Param with URL in ExpressJS Get Method
+https://domainname.com/user/4
+02/18 E. Router Object in ExpressJS
+02/19 F. Middlewares with ExpressJS
+Request -------------------> Response
+
+Request ---> Middleware ---> Response
+
+Request ---> Middleware ---> Response
+M_Response<----MMM--->Next()->Response
+
+
+
+JWT Jason Web Token
+=================================
+
+
+
+

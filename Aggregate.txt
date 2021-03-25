@@ -1,0 +1,13 @@
+AGGREGATE
+
+Model_name.aggregate()
+keywords:
+$match,
+$group,
+$project,
+$sort,
+$limit,
+$skip,
+lookup
+
+
